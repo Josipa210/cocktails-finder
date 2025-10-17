@@ -2,7 +2,7 @@
   "name": "cocktail-finder",
   "version": "0.0.1",
   "description": "Small app to find the perfect cocktail for the night",
-  "productName": "Cocttail finder",
+  "productName": "Cocktail finder",
   "author": "josipa-simanovic <josipa@dikobraz.hr>",
   "type": "module",
   "private": true,
