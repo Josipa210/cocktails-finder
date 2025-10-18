@@ -1,28 +1,40 @@
-# 🍹 Cocktail Finder
+
+🍹 Cocktail Finder
 
 A small Quasar + Vue 3 + Pinia web app to explore cocktails! Search by name or ingredient, view detailed recipes, and discover popular drinks. Perfect for practicing modern Vue ecosystem development.
 
-**Features:**
+## Features
+
 - Search cocktails by name or ingredient  
 - View popular cocktails on first load  
 - Cocktail details modal with ingredients, instructions, and image  
 - Next/Previous navigation inside modal  
 - Fully responsive design using Quasar  
 - Light/Dark mode support  
-- Built with Pinia for state management  
+- Built with Pinia for state management 
 
 
+## Tech Stack
 
-**Technologies:**  
 - Vue 3 – reactive frontend framework  
 - Quasar Framework – UI components & layout  
 - Pinia – state management  
 - Axios – HTTP requests  
 - TheCocktailDB API – cocktail data  
 
-**Installation:**
+
+## Screenshots
+
+![App Screenshot](https://raw.githubusercontent.com/Josipa210/cocktails-finder/refs/heads/master/public/app.png)
+
+![App Screenshot](https://raw.githubusercontent.com/Josipa210/cocktails-finder/refs/heads/master/public/modal.png)
+
+
+## Installation
+
 ```bash
 git clone https://github.com/yourusername/cocktail-finder.git
 cd cocktail-finder
 npm install
 quasar dev
+    
