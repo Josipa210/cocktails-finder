@@ -1,6 +1,6 @@
 <template>
   <q-dialog v-model="visible">
-    <q-card style="min-width: 400px; max-width: 600px">
+    <q-card style="min-width: 400px; max-width: 600px" flat class="bg-secondary" dark>
       <q-card-section v-if="cocktail" class="row items-center q-pa-sm">
         <!-- Previous Arrow -->
         <q-btn
@@ -47,7 +47,7 @@
       </q-card-section>
 
       <q-card-actions align="right">
-        <q-btn flat label="Close" color="primary" @click="close" />
+        <q-btn  label="Close" color="primary" @click="close" dark/>
       </q-card-actions>
     </q-card>
   </q-dialog>

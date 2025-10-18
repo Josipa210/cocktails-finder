@@ -1,5 +1,5 @@
 <template>
-  <q-page class="q-pa-md">
+  <q-page class="q-pa-md bg-primary">
      <SearchBar 
       :onSearchName="searchByName" 
       :onSearchIngredient="searchByIngredient" 

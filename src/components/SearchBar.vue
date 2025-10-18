@@ -5,6 +5,7 @@
       label="Search cocktail"
       outlined clearable=""
       debounce="400"
+      dark
       @update:model-value="onSearch"
       class="q-mb-md col q-mr-md"
     >
@@ -17,7 +18,10 @@
       v-model="searchByIngredientFlag"
       label="Search by ingredient"
       dense
-      class="q-mb-md "
+      dark
+      class="q-mb-md text-white"
+       color="accent"
+      keep-color
     />
   </div>
 </template>
